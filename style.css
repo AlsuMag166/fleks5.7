@@ -1,0 +1,14 @@
+.parent {
+	display: flex;
+	flex-direction:  column-reverse; /* главная ось вверх, поперечная вправо */
+	justify-content: flex-start;     /* блоки к началу главной оси */
+	align-items:     flex-start;     /* блоки к началу поперечной оси */
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+}
+.child {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
